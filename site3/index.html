@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Completo</title>
+
+    <style>
+
+    body {
+        margin: 0;
+        font-family: Arial;
+        background: #0f172a;
+        color: white;
+    }
+
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "main aside"
+            "footer footer";
+        grid-template-columns: 3fr 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+
+    header, nav, main, aside, footer {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+
+    header {
+        grid-area: header;
+        background: #1e3a8a;
+        text-align: center;
+    }
+
+
+    nav {
+        grid-area: nav;
+        background: #0ea5e9;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        grid-area: main;
+        background: #1e293b;
+    }
+    section {
+        background: #334155;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    article {
+        background: #475569;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+
+    aside {
+        grid-area: aside;
+        background: #166534;
+    }
+
+    footer {
+        grid-area: footer;
+        background: #020617;
+        text-align: center;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+    <header>
+        <h1>Meu Site Completo</h1>
+        <p>Um projeto moderno usando HTML e CSS</p>
+</header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Serviços</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+</nav>
+
+    <main>
+        <h2>Bem-vindo!</h2>
+        <p>Este site foi criado como parte de um estudo de desenvolvimento web. Aqui você encontra informações sobre nossos serviços, nossa história e conteúdos interessantes.</p>
+
+        <br>
+
+        <section>
+            <h3>Sobre Nós</h3>
+            <p>Somos uma equipe dedicada à criação de soluções digitais modernas. Nosso objetivo é ajudar empresas e pessoas a se destacarem na internet.</p>
+            <p>Trabalhamos com desenvolvimento de sites, design e inovação tecnológica.</p>
+    </section>
+
+        <section>
+            <h3>Nossos Serviços</h3>
+            <ul>
+                <li>Criação de sites profissionais</li>
+                <li>Design moderno e responsivo</li>
+                <li>Manutenção de sistemas</li>
+                <li>Consultoria em tecnologia</li>
+            </ul>
+    </section>
+
+        <article>
+            <h3>Notícia do Dia</h3>
+            <p>O desenvolvimento web está em constante evolução, trazendo novas ferramentas e tecnologias para facilitar a criação de sites modernos e eficientes.</p>
+            <p>Aprender HTML e CSS é o primeiro passo para entrar nesse mundo.</p>
+    </article>
+</main>
+
+    <aside>
+        <h3>Informações Extras</h3>
+        <p>Você sabia que HTML significa HyperText Markup Language?</p>
+        <p>Já o CSS é responsável pela aparência do site.</p>
+
+        <br>
+
+        <h4>Dica</h4>
+        <p>Pratique criando projetos reais como este. Isso acelera muito seu aprendizado.</p>
+</aside>
+
+    <footer>
+        <p>© 2026 - Site desenvolvido por Luiz Miguel e Letícia Oliveira</p>
+        <p style="font-size: xx-small;">Textos criados por IA</p>
+</footer>
+
+</div>
+
+</body>
+</html>
