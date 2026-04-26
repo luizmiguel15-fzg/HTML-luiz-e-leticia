@@ -1,0 +1,235 @@
+/* LEGENDA */
+.Cor_elementos{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.9rem;
+
+    width: 50%;
+    height: 100%;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 6%;
+    padding-top: 3%;
+
+    grid-column: 5 / 17;
+    grid-row: 3 / 7;
+}
+
+/* cada coluna */
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+
+    width: 48%;
+    min-width: 0;
+}
+
+/* linha da legenda */
+.itens{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    width: 100%;
+    min-width: 0;
+}
+
+/* texto da legenda */
+.itens p{
+    flex: 1;
+    min-width: 0;
+
+    margin: 0;
+    line-height: 1.2;
+    font-size: clamp(0.75rem, 1vw, 1rem);
+
+    overflow-wrap: break-word;
+}
+
+/* quadrados pequenos */
+.quadrado_legenda{
+    width: clamp(25px, 3vw, 40px);
+    height: clamp(25px, 3vw, 40px);
+
+    flex-shrink: 0;
+    border-radius: 10%;
+}
+
+/* quadrado explicativo */
+.Info_Quadrados{
+    width: 100%;
+    height: 100%;
+
+    background: hsl(0, 0%, 2%);
+    border: 0.2rem solid rgb(0, 0, 0);
+
+    box-shadow:
+    0 0 0.6rem rgb(0, 0, 0),
+    0 0 1rem rgb(0, 0, 0),
+    0 0 2rem rgb(0, 0, 0);
+
+    position: relative;
+    border-radius: 8%;
+    box-sizing: border-box;
+
+    margin: 15%;
+
+    grid-column: 1 / 4;
+    grid-row: 11 / 14;
+}
+
+/* organização interna */
+.Info_Texto{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+/* textos internos */
+.Info_Texto .Num{
+    text-align: left;
+    font-size: clamp(0.7rem, 1vw, 1rem);
+    margin-bottom: auto;
+}
+.Info_Texto .Simbolo{
+    text-align: center;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    margin-bottom: 0.2rem;
+}
+.Info_Texto .Massa{
+    text-align: center;
+    font-size: clamp(0.65rem, 1vw, 0.9rem);
+    margin-bottom: 1.5rem;
+}
+.Info_Texto .Nome{
+    text-align: center;
+    font-size: clamp(0.65rem, 1vw, 0.9rem);
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+.Colunas{
+    width: 100%;
+    height: 50%;
+    background: hsl(0, 0%, 2%);
+
+    grid-column: 2 / 20;
+    grid-row: 1;
+}
+
+.Linhas{
+    width: 50%;
+    height: 100%;
+    background: hsl(0, 0%, 2%);
+
+    grid-column: 1;
+    grid-row: 3 / 10;
+
+    margin-left: 28%;
+}
+
+
+
+
+
+
+
+/*Cores Gerais*/
+.Metais_alcalinos{
+    background: hsl(0, 100%, 25%);
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow:
+    0 0px 5px rgb(255, 0, 0),
+    0 0 15px rgb(255, 0, 0),
+    0 0 30px rgb(255, 0, 0);
+}
+
+.Metais_alcalinos_terrosos{
+    background: hsl(30, 100%, 25%);
+    border: 3px solid rgb(255, 128, 0);
+    box-shadow:
+    0 0px 5px rgb(255, 128, 0),
+    0 0 15px rgb(255, 128, 0),
+    0 0 30px rgb(255, 128, 0);
+}
+
+.Metais_Representativos{
+    background: hsl(60, 100%, 25%);
+    border: 3px solid rgb(255, 255, 0);
+    box-shadow:
+    0 0px 5px rgb(255, 255, 0),
+    0 0 15px rgb(255, 255, 0),
+    0 0 30px rgb(255, 255, 0);
+}
+
+.Metais_de_transicao{
+    background: hsl(120, 100%, 10%);
+    border: 3px solid rgb(0, 100, 0);
+    box-shadow:
+    0 0px 5px rgb(0, 100, 0),
+    0 0 15px rgb(0, 100, 0),
+    0 0 30px rgb(0, 100, 0);
+}
+
+.Semimetais{
+    background: hsl(300, 100%, 10%);
+    border: 3px solid rgb(128, 0, 128);
+    box-shadow:
+    0 0px 5px rgb(128, 0, 128),
+    0 0 15px rgb(128, 0, 128),
+    0 0 30px rgb(128, 0, 128);
+}
+
+.Nao_metais{
+    background: hsl(120, 100%, 25%);
+    border: 3px solid rgb(0, 255, 0);
+    box-shadow:
+    0 0px 5px rgb(0, 255, 0),
+    0 0 15px rgb(0, 255, 0),
+    0 0 30px rgb(0, 255, 0);
+}
+
+.Halogenios{
+    background: hsl(337, 100%, 28%);
+    border: 3px solid rgb(255, 32, 118);
+    box-shadow:
+    0 0px 5px rgb(255, 32, 118),
+    0 0 15px rgb(255, 32, 118),
+    0 0 30px rgb(255, 32, 118);
+}
+
+.Gases_nobres{
+    background: hsl(180, 100%, 25%);
+    border: 3px solid rgb(0, 255, 255);
+    box-shadow:
+    0 0px 5px rgb(0, 255, 255),
+    0 0 15px rgb(0, 255, 255),
+    0 0 30px rgb(0, 255, 255);
+}
+
+.Lantanideos{
+    background: hsl(210, 100%, 25%);
+    border: 3px solid rgb(0, 128, 255);
+    box-shadow:
+    0 0px 5px rgb(0, 128, 255),
+    0 0 15px rgb(0, 128, 255),
+    0 0 30px rgb(0, 128, 255);
+}
+
+.Actinideos{
+    background: hsl(240, 100%, 25%);
+    border: 3px solid rgb(0, 0, 255);
+    box-shadow:
+    0 0px 5px rgb(0, 0, 255),
+    0 0 15px rgb(0, 0, 255),
+    0 0 30px rgb(0, 0, 255);
+}

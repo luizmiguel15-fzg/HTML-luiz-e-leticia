@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**BASE*/
+body{
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+    background: rgb(24,26,27);
+    color: white;
+}
+.base{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+header, aside, main, footer{
+    padding: 15px;
+    background: rgb(63, 60, 60);
+    border-radius: 10px;
+}
+
+
+/*INICIO*/
+header{
+    grid-area: header;
+    text-align: center;
+}
+header p{
+    font-size: 15px;
+}
+
+/*TABELA PERIODICA*/
+main{
+    grid-area: main;
+    height: fit-content;
+}

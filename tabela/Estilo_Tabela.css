@@ -1,0 +1,79 @@
+@import url('Estilo_Legenta.css');
+
+.Area_tabela{
+    display: grid;
+
+    width: 98%;
+    max-width: 100%;
+
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+
+    gap: 0.7rem;
+}
+
+/* quadrados menores que a célula */
+.quadrado_tabela{
+    width: 90%;
+    height: 90%;
+
+    aspect-ratio: 1 / 1;
+
+    border-radius: 10%;
+    position: relative;
+
+    box-sizing: border-box;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* conteúdo interno */
+.Texto_Tabela{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 6%;
+    box-sizing: border-box;
+
+    color: white;
+}
+/* número */
+.Texto_Tabela .Num{
+    font-size: 0.7rem;
+    margin-bottom: 2%;
+}
+/* símbolo */
+.Texto_Tabela .Simbolo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+/* massa */
+.Texto_Tabela .Massa{
+    text-align: center;
+    font-size: 0.5rem;
+}
+/* nome */
+.Texto_Tabela .Nome{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 3%;
+
+    font-size: 0.7rem;
+    line-height: 1;
+}
+
+.linha_diagonal{
+    position: absolute;
+    width: 131%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    top: 49%;
+    left: -16%;
+    transform: rotate(-44deg);
+}
