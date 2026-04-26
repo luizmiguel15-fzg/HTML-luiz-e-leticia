@@ -1,0 +1,4 @@
+termiar linhas e colunas
+mudar as cores
+subir elementos
+colocar destaque visual para elemetos de mesma categotia (@kayframes ou ":hover")
