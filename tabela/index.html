@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Site Com JS</title>
-
-    <link rel="stylesheet" href="Base.css">
-    <link rel="stylesheet" href="Estilo_Tabela.css"> 
-    <link rel="stylesheet" href="Estilo_Legenta.css">
-    <link rel="stylesheet" href="Elementos.css">
+    <title>Tabela Periodica</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="base">
+    <div class="LL_base">
 
         <header>
             <h1>Tabela Periódica</h1>
@@ -20,63 +16,91 @@
         </header>
 
         <main>
-            <div class="Area_tabela">
+            <div class="LL_Area_tabela">
 
-                <div class="Colunas"></div>
-                <div class="Linhas"></div>
+                <div class="LL_Colunas">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                    <span>11</span>
+                    <span>12</span>
+                    <span>13</span>
+                    <span>14</span>
+                    <span>15</span>
+                    <span>16</span>
+                    <span>17</span>
+                    <span>18</span>
+                </div>
 
-                <div class = "Cor_elementos">
-                    <div class="coluna">
-                        <div class="itens">
-                            <div class="quadrado_legenda Metais_alcalinos"></div>
+                <div class="LL_Linhas">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                </div>
+
+                <div class = "LL_Cor_elementos">
+                    <div class="LL_coluna">
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Metais_alcalinos" tabindex="0"></div>
                             <p>Metais Alcalinos</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Metais_alcalinos_terrosos"></div>
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Metais_alcalinos_terrosos" tabindex="0"></div>
                             <p>Metais Alcalinos Terrosos</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Metais_Representativos"></div>
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Metais_Representativos" tabindex="0"></div>
                             <p>Metais Representativos</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Metais_de_transicao"></div>
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Metais_de_transicao" tabindex="0"></div>
                             <p>Metais de Transição</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Semimetais"></div>
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Semimetais" tabindex="0"></div>
                             <p>Semi Metais</p>
                         </div>
 
                     </div>
 
-                    <div class="coluna">
-                        <div class="itens">
-                            <div class="quadrado_legenda Nao_metais"></div>
+                    <div class="LL_coluna">
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Nao_metais" tabindex="0"></div>
                             <p>Nao Metais</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Halogenios"></div>
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Halogenios" tabindex="0"></div>
                             <p>Halogenios</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Gases_nobres"></div>
+                        <div class="LL_itens">
+                            <div class="LL_quadrado_legenda LL_Gases_nobres" tabindex="0"></div>
                             <p>Gases Nobres</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Lantanideos"></div>
+                        <div class="LL_itens">
+                            <div id="visivel" class="LL_quadrado_legenda LL_Lantanideos" tabindex="0"></div>
                             <p>Lantanideos</p>
                         </div>
 
-                        <div class="itens">
-                            <div class="quadrado_legenda Actinideos"></div>
+                        <div class="LL_itens">
+                            <div id="visivel" class="LL_quadrado_legenda LL_Actinideos" tabindex="0"></div>
                             <p>Actinideos</p>
                         </div>
 
@@ -85,879 +109,881 @@
 
 
                 <!-- LINHA 1 --> 
-                <div id="H" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">1</span>
-                    <span class="Simbolo">H</span>
-                    <span class="Nome">Hidrogênio</span>
-                    <span class="Massa">1.008</span>
-                    
+                <div id="H" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">1</span>
+                    <span class="LL_Simbolo">H</span>
+                    <span class="LL_Nome">Hidrogênio</span>
+                    <span class="LL_Massa">1.008</span>
                 </div>
 
-                <div id="He" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">2</span>
-                    <span class="Simbolo">He</span>
-                    <span class="Nome">Hélio</span>
-                    <span class="Massa">4.0026</span>               
+                <div id="He" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">2</span>
+                    <span class="LL_Simbolo">He</span>
+                    <span class="LL_Nome">Hélio</span>
+                    <span class="LL_Massa">4.0026</span>               
                 </div>
 
 
                 <!-- LINHA 2 -->
-                <div id="Li" class="quadrado_tabela Texto_Tabela Metais_alcalinos">
-                    <span class="Num">3</span>
-                    <span class="Simbolo">Li</span>
-                    <span class="Nome">Lítio</span>
-                    <span class="Massa">6.941</span>
+                <div id="Li" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos" tabindex="0">
+                    <span class="LL_Num">3</span>
+                    <span class="LL_Simbolo">Li</span>
+                    <span class="LL_Nome">Lítio</span>
+                    <span class="LL_Massa">6.941</span>
                 </div>
 
-                <div id="Be" class="quadrado_tabela Texto_Tabela Metais_alcalinos_terrosos">
-                    <span class="Num">4</span>
-                    <span class="Simbolo">Be</span>
-                    <span class="Nome">Berílio</span>
-                    <span class="Massa">9.012182</span>
+                <div id="Be" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos_terrosos" tabindex="0">
+                    <span class="LL_Num">4</span>
+                    <span class="LL_Simbolo">Be</span>
+                    <span class="LL_Nome">Berílio</span>
+                    <span class="LL_Massa">9.012182</span>
                 </div>
 
-                <div id="B" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">5</span>
-                    <span class="Simbolo">B</span>
-                    <span class="Nome">Boro</span>
-                    <span class="Massa">10.811</span>
+                <div id="B" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">5</span>
+                    <span class="LL_Simbolo">B</span>
+                    <span class="LL_Nome">Boro</span>
+                    <span class="LL_Massa">10.811</span>
                 </div>
 
-                <div id="C" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">6</span>
-                    <span class="Simbolo">C</span>
-                    <span class="Nome">Carbono</span>
-                    <span class="Massa">12.0107</span>
+                <div id="C" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">6</span>
+                    <span class="LL_Simbolo">C</span>
+                    <span class="LL_Nome">Carbono</span>
+                    <span class="LL_Massa">12.0107</span>
                 </div>
 
-                <div id="N" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">7</span>
-                    <span class="Simbolo">N</span>
-                    <span class="Nome">Nitrogênio</span>
-                    <span class="Massa">14.0067</span>
+                <div id="N" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">7</span>
+                    <span class="LL_Simbolo">N</span>
+                    <span class="LL_Nome">Nitrogênio</span>
+                    <span class="LL_Massa">14.0067</span>
                 </div>
 
-                <div id="O" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">8</span>
-                    <span class="Simbolo">O</span>
-                    <span class="Nome">Oxigênio</span>
-                    <span class="Massa">15.9994</span>
+                <div id="O" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">8</span>
+                    <span class="LL_Simbolo">O</span>
+                    <span class="LL_Nome">Oxigênio</span>
+                    <span class="LL_Massa">15.9994</span>
                 </div>
 
-                <div id="F" class="quadrado_tabela Texto_Tabela Halogenios">
-                    <span class="Num">9</span>
-                    <span class="Simbolo">F</span>
-                    <span class="Nome">Flúor</span>
-                    <span class="Massa">18.9984032</span>
+                <div id="F" class="LL_quadrado_tabela LL_Texto_Tabela LL_Halogenios" tabindex="0">
+                    <span class="LL_Num">9</span>
+                    <span class="LL_Simbolo">F</span>
+                    <span class="LL_Nome">Flúor</span>
+                    <span class="LL_Massa">18.9984032</span>
                 </div>
 
-                <div id="Ne" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">10</span>
-                    <span class="Simbolo">Ne</span>
-                    <span class="Nome">Neônio</span>
-                    <span class="Massa">20.1797</span>
+                <div id="Ne" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">10</span>
+                    <span class="LL_Simbolo">Ne</span>
+                    <span class="LL_Nome">Neônio</span>
+                    <span class="LL_Massa">20.1797</span>
                 </div>
 
 
                 <!-- LINHA 3 -->
-                <div id="Na" class="quadrado_tabela Texto_Tabela Metais_alcalinos">
-                    <span class="Num">11</span>
-                    <span class="Simbolo">Na</span>
-                    <span class="Nome">Sódio</span>
-                    <span class="Massa">22.98977</span>
+                <div id="Na" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos" tabindex="0">
+                    <span class="LL_Num">11</span>
+                    <span class="LL_Simbolo">Na</span>
+                    <span class="LL_Nome">Sódio</span>
+                    <span class="LL_Massa">22.98977</span>
                 </div>
 
-                <div id="Mg" class="quadrado_tabela Texto_Tabela Metais_alcalinos_terrosos">
-                    <span class="Num">12</span>
-                    <span class="Simbolo">Mg</span>
-                    <span class="Nome">Magnésio</span>
-                    <span class="Massa">24.305</span>
+                <div id="Mg" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos_terrosos" tabindex="0">
+                    <span class="LL_Num">12</span>
+                    <span class="LL_Simbolo">Mg</span>
+                    <span class="LL_Nome">Magnésio</span>
+                    <span class="LL_Massa">24.305</span>
                 </div>
 
-                <div id="Al" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">13</span>
-                    <span class="Simbolo">Al</span>
-                    <span class="Nome">Alumínio</span>
-                    <span class="Massa">26.9815386</span>
+                <div id="Al" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">13</span>
+                    <span class="LL_Simbolo">Al</span>
+                    <span class="LL_Nome">Alumínio</span>
+                    <span class="LL_Massa">26.9815386</span>
                 </div>
 
-                <div id="Si" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">14</span>
-                    <span class="Simbolo">Si</span>
-                    <span class="Nome">Silício</span>
-                    <span class="Massa">28.0855</span>
+                <div id="Si" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">14</span>
+                    <span class="LL_Simbolo">Si</span>
+                    <span class="LL_Nome">Silício</span>
+                    <span class="LL_Massa">28.0855</span>
                 </div>
 
-                <div id="P" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">15</span>
-                    <span class="Simbolo">P</span>
-                    <span class="Nome">Fósforo</span>
-                    <span class="Massa">30.973762</span>
+                <div id="P" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">15</span>
+                    <span class="LL_Simbolo">P</span>
+                    <span class="LL_Nome">Fósforo</span>
+                    <span class="LL_Massa">30.973762</span>
                 </div>
 
-                <div id="S" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">16</span>
-                    <span class="Simbolo">S</span>
-                    <span class="Nome">Enxofre</span>
-                    <span class="Massa">32.065</span>
+                <div id="S" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">16</span>
+                    <span class="LL_Simbolo">S</span>
+                    <span class="LL_Nome">Enxofre</span>
+                    <span class="LL_Massa">32.065</span>
                 </div>
 
-                <div id="Cl" class="quadrado_tabela Texto_Tabela Halogenios">
-                    <span class="Num">17</span>
-                    <span class="Simbolo">Cl</span>
-                    <span class="Nome">Cloro</span>
-                    <span class="Massa">35.453</span>
+                <div id="Cl" class="LL_quadrado_tabela LL_Texto_Tabela LL_Halogenios" tabindex="0">
+                    <span class="LL_Num">17</span>
+                    <span class="LL_Simbolo">Cl</span>
+                    <span class="LL_Nome">Cloro</span>
+                    <span class="LL_Massa">35.453</span>
                 </div>
 
-                <div id="Ar" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">18</span>
-                    <span class="Simbolo">Ar</span>
-                    <span class="Nome">Argônio</span>
-                    <span class="Massa">39.948</span>
+                <div id="Ar" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">18</span>
+                    <span class="LL_Simbolo">Ar</span>
+                    <span class="LL_Nome">Argônio</span>
+                    <span class="LL_Massa">39.948</span>
                 </div>
+
 
 
                 <!-- LINHA 4 -->
-                <div id="K" class="quadrado_tabela Texto_Tabela Metais_alcalinos">
-                    <span class="Num">19</span>
-                    <span class="Simbolo">K</span>
-                    <span class="Nome">Potássio</span>
-                    <span class="Massa">39.0983</span>
+                <div id="K" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos" tabindex="0">
+                    <span class="LL_Num">19</span>
+                    <span class="LL_Simbolo">K</span>
+                    <span class="LL_Nome">Potássio</span>
+                    <span class="LL_Massa">39.0983</span>
                 </div>
 
-                <div id="Ca" class="quadrado_tabela Texto_Tabela Metais_alcalinos_terrosos">
-                    <span class="Num">20</span>
-                    <span class="Simbolo">Ca</span>
-                    <span class="Nome">Cálcio</span>
-                    <span class="Massa">40.078</span>
+                <div id="Ca" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos_terrosos" tabindex="0">
+                    <span class="LL_Num">20</span>
+                    <span class="LL_Simbolo">Ca</span>
+                    <span class="LL_Nome">Cálcio</span>
+                    <span class="LL_Massa">40.078</span>
                 </div>
 
-                <div id="Sc" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">21</span>
-                    <span class="Simbolo">Sc</span>
-                    <span class="Nome">Escândio</span>
-                    <span class="Massa">44.955912</span>
+                <div id="Sc" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">21</span>
+                    <span class="LL_Simbolo">Sc</span>
+                    <span class="LL_Nome">Escândio</span>
+                    <span class="LL_Massa">44.955912</span>
                 </div>
 
-                <div id="Ti" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">22</span>
-                    <span class="Simbolo">Ti</span>
-                    <span class="Nome">Titânio</span>
-                    <span class="Massa">47.867</span>
+                <div id="Ti" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">22</span>
+                    <span class="LL_Simbolo">Ti</span>
+                    <span class="LL_Nome">Titânio</span>
+                    <span class="LL_Massa">47.867</span>
                 </div>
 
-                <div id="V" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">23</span>
-                    <span class="Simbolo">V</span>
-                    <span class="Nome">Vanádio</span>
-                    <span class="Massa">50.9415</span>
+                <div id="V" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">23</span>
+                    <span class="LL_Simbolo">V</span>
+                    <span class="LL_Nome">Vanádio</span>
+                    <span class="LL_Massa">50.9415</span>
                 </div>
 
-                <div id="Cr" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">24</span>
-                    <span class="Simbolo">Cr</span>
-                    <span class="Nome">Cromo</span>
-                    <span class="Massa">51.9961</span>
+                <div id="Cr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">24</span>
+                    <span class="LL_Simbolo">Cr</span>
+                    <span class="LL_Nome">Cromo</span>
+                    <span class="LL_Massa">51.9961</span>
                 </div>
 
-                <div id="Mn" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">25</span>
-                    <span class="Simbolo">Mn</span>
-                    <span class="Nome">Manganês</span>
-                    <span class="Massa">54.938045</span>
+                <div id="Mn" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">25</span>
+                    <span class="LL_Simbolo">Mn</span>
+                    <span class="LL_Nome">Manganês</span>
+                    <span class="LL_Massa">54.938045</span>
                 </div>
 
-                <div id="Fe" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">26</span>
-                    <span class="Simbolo">Fe</span>
-                    <span class="Nome">Ferro</span>
-                    <span class="Massa">55.845</span>
+                <div id="Fe" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">26</span>
+                    <span class="LL_Simbolo">Fe</span>
+                    <span class="LL_Nome">Ferro</span>
+                    <span class="LL_Massa">55.845</span>
                 </div>
 
-                <div id="Co" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">27</span>
-                    <span class="Simbolo">Co</span>
-                    <span class="Nome">Cobalto</span>
-                    <span class="Massa">58.933195</span>
+                <div id="Co" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">27</span>
+                    <span class="LL_Simbolo">Co</span>
+                    <span class="LL_Nome">Cobalto</span>
+                    <span class="LL_Massa">58.933195</span>
                 </div>
 
-                <div id="Ni" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">28</span>
-                    <span class="Simbolo">Ni</span>
-                    <span class="Nome">Níquel</span>
-                    <span class="Massa">58.6934</span>
+                <div id="Ni" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">28</span>
+                    <span class="LL_Simbolo">Ni</span>
+                    <span class="LL_Nome">Níquel</span>
+                    <span class="LL_Massa">58.6934</span>
                 </div>
 
-                <div id="Cu" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">29</span>
-                    <span class="Simbolo">Cu</span>
-                    <span class="Nome">Cobre</span>
-                    <span class="Massa">63.546</span>
+                <div id="Cu" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">29</span>
+                    <span class="LL_Simbolo">Cu</span>
+                    <span class="LL_Nome">Cobre</span>
+                    <span class="LL_Massa">63.546</span>
                 </div>
 
-                <div id="Zn" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">30</span>
-                    <span class="Simbolo">Zn</span>
-                    <span class="Nome">Zinco</span>
-                    <span class="Massa">65.38</span>
+                <div id="Zn" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">30</span>
+                    <span class="LL_Simbolo">Zn</span>
+                    <span class="LL_Nome">Zinco</span>
+                    <span class="LL_Massa">65.38</span>
                 </div>
 
-                <div id="Ga" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">31</span>
-                    <span class="Simbolo">Ga</span>
-                    <span class="Nome">Gálio</span>
-                    <span class="Massa">69.723</span>
+                <div id="Ga" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">31</span>
+                    <span class="LL_Simbolo">Ga</span>
+                    <span class="LL_Nome">Gálio</span>
+                    <span class="LL_Massa">69.723</span>
                 </div>
 
-                <div id="Ge" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">32</span>
-                    <span class="Simbolo">Ge</span>
-                    <span class="Nome">Germânio</span>
-                    <span class="Massa">72.63</span>
+                <div id="Ge" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">32</span>
+                    <span class="LL_Simbolo">Ge</span>
+                    <span class="LL_Nome">Germânio</span>
+                    <span class="LL_Massa">72.63</span>
                 </div>
 
-                <div id="As" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">33</span>
-                    <span class="Simbolo">As</span>
-                    <span class="Nome">Arsênio</span>
-                    <span class="Massa">74.9216</span>
+                <div id="As" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">33</span>
+                    <span class="LL_Simbolo">As</span>
+                    <span class="LL_Nome">Arsênio</span>
+                    <span class="LL_Massa">74.9216</span>
                 </div>
 
-                <div id="Se" class="quadrado_tabela Texto_Tabela Nao_metais">
-                    <span class="Num">34</span>
-                    <span class="Simbolo">Se</span>
-                    <span class="Nome">Selênio</span>
-                    <span class="Massa">78.96</span>
+                <div id="Se" class="LL_quadrado_tabela LL_Texto_Tabela LL_Nao_metais" tabindex="0">
+                    <span class="LL_Num">34</span>
+                    <span class="LL_Simbolo">Se</span>
+                    <span class="LL_Nome">Selênio</span>
+                    <span class="LL_Massa">78.96</span>
                 </div>
 
-                <div id="Br" class="quadrado_tabela Texto_Tabela Halogenios">
-                    <span class="Num">35</span>
-                    <span class="Simbolo">Br</span>
-                    <span class="Nome">Bromo</span>
-                    <span class="Massa">79.904</span>
+                <div id="Br" class="LL_quadrado_tabela LL_Texto_Tabela LL_Halogenios" tabindex="0">
+                    <span class="LL_Num">35</span>
+                    <span class="LL_Simbolo">Br</span>
+                    <span class="LL_Nome">Bromo</span>
+                    <span class="LL_Massa">79.904</span>
                 </div>
 
-                <div id="Kr" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">36</span>
-                    <span class="Simbolo">Kr</span>
-                    <span class="Nome">Criptônio</span>
-                    <span class="Massa">83.798</span>
+                <div id="Kr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">36</span>
+                    <span class="LL_Simbolo">Kr</span>
+                    <span class="LL_Nome">Criptônio</span>
+                    <span class="LL_Massa">83.798</span>
                 </div>
+
 
 
                 <!-- LINHA 5 -->
-                <div id="Rb" class="quadrado_tabela Texto_Tabela Metais_alcalinos">
-                    <span class="Num">37</span>
-                    <span class="Simbolo">Rb</span>
-                    <span class="Nome">Rubídio</span>
-                    <span class="Massa">85.4678</span>
+                <div id="Rb" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos" tabindex="0">
+                    <span class="LL_Num">37</span>
+                    <span class="LL_Simbolo">Rb</span>
+                    <span class="LL_Nome">Rubídio</span>
+                    <span class="LL_Massa">85.4678</span>
                 </div>
 
-                <div id="Sr" class="quadrado_tabela Texto_Tabela Metais_alcalinos_terrosos">
-                    <span class="Num">38</span>
-                    <span class="Simbolo">Sr</span>
-                    <span class="Nome">Estrôncio</span>
-                    <span class="Massa">87.62</span>
+                <div id="Sr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos_terrosos" tabindex="0">
+                    <span class="LL_Num">38</span>
+                    <span class="LL_Simbolo">Sr</span>
+                    <span class="LL_Nome">Estrôncio</span>
+                    <span class="LL_Massa">87.62</span>
                 </div>
 
-                <div id="Y" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">39</span>
-                    <span class="Simbolo">Y</span>
-                    <span class="Nome">Ítrio</span>
-                    <span class="Massa">88.90585</span>
+                <div id="Y" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">39</span>
+                    <span class="LL_Simbolo">Y</span>
+                    <span class="LL_Nome">Ítrio</span>
+                    <span class="LL_Massa">88.90585</span>
                 </div>
 
-                <div id="Zr" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">40</span>
-                    <span class="Simbolo">Zr</span>
-                    <span class="Nome">Zircônio</span>
-                    <span class="Massa">91.224</span>
+                <div id="Zr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">40</span>
+                    <span class="LL_Simbolo">Zr</span>
+                    <span class="LL_Nome">Zircônio</span>
+                    <span class="LL_Massa">91.224</span>
                 </div>
 
-                <div id="Nb" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">41</span>
-                    <span class="Simbolo">Nb</span>
-                    <span class="Nome">Nióbio</span>
-                    <span class="Massa">92.90638</span>
+                <div id="Nb" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">41</span>
+                    <span class="LL_Simbolo">Nb</span>
+                    <span class="LL_Nome">Nióbio</span>
+                    <span class="LL_Massa">92.90638</span>
                 </div>
 
-                <div id="Mo" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">42</span>
-                    <span class="Simbolo">Mo</span>
-                    <span class="Nome">Molibdênio</span>
-                    <span class="Massa">95.96</span>
+                <div id="Mo" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">42</span>
+                    <span class="LL_Simbolo">Mo</span>
+                    <span class="LL_Nome">Molibdênio</span>
+                    <span class="LL_Massa">95.96</span>
                 </div>
 
-                <div id="Tc" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">43</span>
-                    <span class="Simbolo">Tc</span>
-                    <span class="Nome">Tecnécio</span>
-                    <span class="Massa">98</span>
+                <div id="Tc" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">43</span>
+                    <span class="LL_Simbolo">Tc</span>
+                    <span class="LL_Nome">Tecnécio</span>
+                    <span class="LL_Massa">98</span>
                 </div>
 
-                <div id="Ru" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">44</span>
-                    <span class="Simbolo">Ru</span>
-                    <span class="Nome">Rutênio</span>
-                    <span class="Massa">101.07</span>
+                <div id="Ru" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">44</span>
+                    <span class="LL_Simbolo">Ru</span>
+                    <span class="LL_Nome">Rutênio</span>
+                    <span class="LL_Massa">101.07</span>
                 </div>
 
-                <div id="Rh" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">45</span>
-                    <span class="Simbolo">Rh</span>
-                    <span class="Nome">Ródio</span>
-                    <span class="Massa">102.9055</span>
+                <div id="Rh" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">45</span>
+                    <span class="LL_Simbolo">Rh</span>
+                    <span class="LL_Nome">Ródio</span>
+                    <span class="LL_Massa">102.9055</span>
                 </div>
 
-                <div id="Pd" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">46</span>
-                    <span class="Simbolo">Pd</span>
-                    <span class="Nome">Paládio</span>
-                    <span class="Massa">106.42</span>
+                <div id="Pd" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">46</span>
+                    <span class="LL_Simbolo">Pd</span>
+                    <span class="LL_Nome">Paládio</span>
+                    <span class="LL_Massa">106.42</span>
                 </div>
 
-                <div id="Ag" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">47</span>
-                    <span class="Simbolo">Ag</span>
-                    <span class="Nome">Prata</span>
-                    <span class="Massa">107.8682</span>
+                <div id="Ag" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">47</span>
+                    <span class="LL_Simbolo">Ag</span>
+                    <span class="LL_Nome">Prata</span>
+                    <span class="LL_Massa">107.8682</span>
                 </div>
 
-                <div id="Cd" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">48</span>
-                    <span class="Simbolo">Cd</span>
-                    <span class="Nome">Cádmio</span>
-                    <span class="Massa">112.411</span>
+                <div id="Cd" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">48</span>
+                    <span class="LL_Simbolo">Cd</span>
+                    <span class="LL_Nome">Cádmio</span>
+                    <span class="LL_Massa">112.411</span>
                 </div>
 
-                <div id="In" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">49</span>
-                    <span class="Simbolo">In</span>
-                    <span class="Nome">Índio</span>
-                    <span class="Massa">114.818</span>
+                <div id="In" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">49</span>
+                    <span class="LL_Simbolo">In</span>
+                    <span class="LL_Nome">Índio</span>
+                    <span class="LL_Massa">114.818</span>
                 </div>
 
-                <div id="Sn" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">50</span>
-                    <span class="Simbolo">Sn</span>
-                    <span class="Nome">Estanho</span>
-                    <span class="Massa">118.71</span>
+                <div id="Sn" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">50</span>
+                    <span class="LL_Simbolo">Sn</span>
+                    <span class="LL_Nome">Estanho</span>
+                    <span class="LL_Massa">118.71</span>
                 </div>
 
-                <div id="Sb" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">51</span>
-                    <span class="Simbolo">Sb</span>
-                    <span class="Nome">Antimônio</span>
-                    <span class="Massa">121.76</span>
+                <div id="Sb" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">51</span>
+                    <span class="LL_Simbolo">Sb</span>
+                    <span class="LL_Nome">Antimônio</span>
+                    <span class="LL_Massa">121.76</span>
                 </div>
 
-                <div id="Te" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">52</span>
-                    <span class="Simbolo">Te</span>
-                    <span class="Nome">Telúrio</span>
-                    <span class="Massa">127.6</span>
+                <div id="Te" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">52</span>
+                    <span class="LL_Simbolo">Te</span>
+                    <span class="LL_Nome">Telúrio</span>
+                    <span class="LL_Massa">127.6</span>
                 </div>
 
-                <div id="I" class="quadrado_tabela Texto_Tabela Halogenios">
-                    <span class="Num">53</span>
-                    <span class="Simbolo">I</span>
-                    <span class="Nome">Iodo</span>
-                    <span class="Massa">126.90447</span>
+                <div id="I" class="LL_quadrado_tabela LL_Texto_Tabela LL_Halogenios" tabindex="0">
+                    <span class="LL_Num">53</span>
+                    <span class="LL_Simbolo">I</span>
+                    <span class="LL_Nome">Iodo</span>
+                    <span class="LL_Massa">126.90447</span>
                 </div>
 
-                <div id="Xe" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">54</span>
-                    <span class="Simbolo">Xe</span>
-                    <span class="Nome">Xenônio</span>
-                    <span class="Massa">131.293</span>
+                <div id="Xe" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">54</span>
+                    <span class="LL_Simbolo">Xe</span>
+                    <span class="LL_Nome">Xenônio</span>
+                    <span class="LL_Massa">131.293</span>
                 </div>
 
     
 
                 <!-- LINHA 6 -->
-                <div id="Cs" class="quadrado_tabela Texto_Tabela Metais_alcalinos">
-                    <span class="Num">55</span>
-                    <span class="Simbolo">Cs</span>
-                    <span class="Nome">Césio</span>
-                    <span class="Massa">132.90545</span>
+                <div id="Cs" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos" tabindex="0">
+                    <span class="LL_Num">55</span>
+                    <span class="LL_Simbolo">Cs</span>
+                    <span class="LL_Nome">Césio</span>
+                    <span class="LL_Massa">132.90545</span>
                 </div>
 
-                <div id="Ba" class="quadrado_tabela Texto_Tabela Metais_alcalinos_terrosos">
-                    <span class="Num">56</span>
-                    <span class="Simbolo">Ba</span>
-                    <span class="Nome">Bário</span>
-                    <span class="Massa">137.327</span>
+                <div id="Ba" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos_terrosos" tabindex="0">
+                    <span class="LL_Num">56</span>
+                    <span class="LL_Simbolo">Ba</span>
+                    <span class="LL_Nome">Bário</span>
+                    <span class="LL_Massa">137.327</span>
                 </div>
 
-                <div id="La" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">57</span>
-                    <span class="Simbolo">La</span>
-                    <span class="Nome">Lantânio</span>
-                    <span class="Massa">138.90547</span>
+                <div id="La" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">57</span>
+                    <span class="LL_Simbolo">La</span>
+                    <span class="LL_Nome">Lantânio</span>
+                    <span class="LL_Massa">138.90547</span>
                 </div>
 
-                <div id="Hf" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">72</span>
-                    <span class="Simbolo">Hf</span>
-                    <span class="Nome">Háfnio</span>
-                    <span class="Massa">178.49</span>
+                <div id="Hf" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">72</span>
+                    <span class="LL_Simbolo">Hf</span>
+                    <span class="LL_Nome">Háfnio</span>
+                    <span class="LL_Massa">178.49</span>
                 </div>
 
-                <div id="Ta" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">73</span>
-                    <span class="Simbolo">Ta</span>
-                    <span class="Nome">Tântalo</span>
-                    <span class="Massa">180.94788</span>
+                <div id="Ta" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">73</span>
+                    <span class="LL_Simbolo">Ta</span>
+                    <span class="LL_Nome">Tântalo</span>
+                    <span class="LL_Massa">180.94788</span>
                 </div>
 
-                <div id="W" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">74</span>
-                    <span class="Simbolo">W</span>
-                    <span class="Nome">Tungstênio</span>
-                    <span class="Massa">183.84</span>
+                <div id="W" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">74</span>
+                    <span class="LL_Simbolo">W</span>
+                    <span class="LL_Nome">Tungstênio</span>
+                    <span class="LL_Massa">183.84</span>
                 </div>
 
-                <div id="Re" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">75</span>
-                    <span class="Simbolo">Re</span>
-                    <span class="Nome">Rênio</span>
-                    <span class="Massa">186.207</span>
+                <div id="Re" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">75</span>
+                    <span class="LL_Simbolo">Re</span>
+                    <span class="LL_Nome">Rênio</span>
+                    <span class="LL_Massa">186.207</span>
                 </div>
 
-                <div id="Os" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">76</span>
-                    <span class="Simbolo">Os</span>
-                    <span class="Nome">Ósmio</span>
-                    <span class="Massa">190.23</span>
+                <div id="Os" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">76</span>
+                    <span class="LL_Simbolo">Os</span>
+                    <span class="LL_Nome">Ósmio</span>
+                    <span class="LL_Massa">190.23</span>
                 </div>
 
-                <div id="Ir" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">77</span>
-                    <span class="Simbolo">Ir</span>
-                    <span class="Nome">Irídio</span>
-                    <span class="Massa">192.217</span>
+                <div id="Ir" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">77</span>
+                    <span class="LL_Simbolo">Ir</span>
+                    <span class="LL_Nome">Irídio</span>
+                    <span class="LL_Massa">192.217</span>
                 </div>
 
-                <div id="Pt" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">78</span>
-                    <span class="Simbolo">Pt</span>
-                    <span class="Nome">Platina</span>
-                    <span class="Massa">195.084</span>
+                <div id="Pt" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">78</span>
+                    <span class="LL_Simbolo">Pt</span>
+                    <span class="LL_Nome">Platina</span>
+                    <span class="LL_Massa">195.084</span>
                 </div>
 
-                <div id="Au" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">79</span>
-                    <span class="Simbolo">Au</span>
-                    <span class="Nome">Ouro</span>
-                    <span class="Massa">196.96657</span>
+                <div id="Au" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">79</span>
+                    <span class="LL_Simbolo">Au</span>
+                    <span class="LL_Nome">Ouro</span>
+                    <span class="LL_Massa">196.96657</span>
                 </div>
 
-                <div id="Hg" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">80</span>
-                    <span class="Simbolo">Hg</span>
-                    <span class="Nome">Mercúrio</span>
-                    <span class="Massa">200.59</span>
+                <div id="Hg" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">80</span>
+                    <span class="LL_Simbolo">Hg</span>
+                    <span class="LL_Nome">Mercúrio</span>
+                    <span class="LL_Massa">200.59</span>
                 </div>
 
-                <div id="Tl" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">81</span>
-                    <span class="Simbolo">Tl</span>
-                    <span class="Nome">Tálio</span>
-                    <span class="Massa">204.3833</span>
+                <div id="Tl" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">81</span>
+                    <span class="LL_Simbolo">Tl</span>
+                    <span class="LL_Nome">Tálio</span>
+                    <span class="LL_Massa">204.3833</span>
                 </div>
 
-                <div id="Pb" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">82</span>
-                    <span class="Simbolo">Pb</span>
-                    <span class="Nome">Chumbo</span>
-                    <span class="Massa">207.2</span>
+                <div id="Pb" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">82</span>
+                    <span class="LL_Simbolo">Pb</span>
+                    <span class="LL_Nome">Chumbo</span>
+                    <span class="LL_Massa">207.2</span>
                 </div>
 
-                <div id="Bi" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">83</span>
-                    <span class="Simbolo">Bi</span>
-                    <span class="Nome">Bismuto</span>
-                    <span class="Massa">208.9804</span>
+                <div id="Bi" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">83</span>
+                    <span class="LL_Simbolo">Bi</span>
+                    <span class="LL_Nome">Bismuto</span>
+                    <span class="LL_Massa">208.9804</span>
                 </div>
 
-                <div id="Po" class="quadrado_tabela Texto_Tabela Semimetais">
-                    <span class="Num">84</span>
-                    <span class="Simbolo">Po</span>
-                    <span class="Nome">Polônio</span>
-                    <span class="Massa">209</span>
+                <div id="Po" class="LL_quadrado_tabela LL_Texto_Tabela LL_Semimetais" tabindex="0">
+                    <span class="LL_Num">84</span>
+                    <span class="LL_Simbolo">Po</span>
+                    <span class="LL_Nome">Polônio</span>
+                    <span class="LL_Massa">209</span>
                 </div>
 
-                <div id="At" class="quadrado_tabela Texto_Tabela Halogenios">
-                    <span class="Num">85</span>
-                    <span class="Simbolo">At</span>
-                    <span class="Nome">Astato</span>
-                    <span class="Massa">210</span>
+                <div id="At" class="LL_quadrado_tabela LL_Texto_Tabela LL_Halogenios" tabindex="0">
+                    <span class="LL_Num">85</span>
+                    <span class="LL_Simbolo">At</span>
+                    <span class="LL_Nome">Astato</span>
+                    <span class="LL_Massa">210</span>
                 </div>
 
-                <div id="Rn" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">86</span>
-                    <span class="Simbolo">Rn</span>
-                    <span class="Nome">Radônio</span>
-                    <span class="Massa">222</span>
+                <div id="Rn" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">86</span>
+                    <span class="LL_Simbolo">Rn</span>
+                    <span class="LL_Nome">Radônio</span>
+                    <span class="LL_Massa">222</span>
                 </div>
+
 
 
                 <!-- LINHA 7 -->
-                <div id="Fr" class="quadrado_tabela Texto_Tabela Metais_alcalinos">
-                    <span class="Num">87</span>
-                    <span class="Simbolo">Fr</span>
-                    <span class="Nome">Frâncio</span>
-                    <span class="Massa">223</span>
+                <div id="Fr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos" tabindex="0">
+                    <span class="LL_Num">87</span>
+                    <span class="LL_Simbolo">Fr</span>
+                    <span class="LL_Nome">Frâncio</span>
+                    <span class="LL_Massa">223</span>
                 </div>
 
-                <div id="Ra" class="quadrado_tabela Texto_Tabela Metais_alcalinos_terrosos">
-                    <span class="Num">88</span>
-                    <span class="Simbolo">Ra</span>
-                    <span class="Nome">Rádio</span>
-                    <span class="Massa">226</span>
+                <div id="Ra" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_alcalinos_terrosos" tabindex="0">
+                    <span class="LL_Num">88</span>
+                    <span class="LL_Simbolo">Ra</span>
+                    <span class="LL_Nome">Rádio</span>
+                    <span class="LL_Massa">226</span>
                 </div>
 
-                <div id="Ac" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">89</span>
-                    <span class="Simbolo">Ac</span>
-                    <span class="Nome">Actínio</span>
-                    <span class="Massa">227</span>
+                <div id="Ac" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">89</span>
+                    <span class="LL_Simbolo">Ac</span>
+                    <span class="LL_Nome">Actínio</span>
+                    <span class="LL_Massa">227</span>
                 </div>
 
-                <div id="Rf" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">104</span>
-                    <span class="Simbolo">Rf</span>
-                    <span class="Nome">Rutherfórdio</span>
-                    <span class="Massa">267</span>
+                <div id="Rf" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">104</span>
+                    <span class="LL_Simbolo">Rf</span>
+                    <span class="LL_Nome">Rutherfórdio</span>
+                    <span class="LL_Massa">267</span>
                 </div>
 
-                <div id="Db" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">105</span>
-                    <span class="Simbolo">Db</span>
-                    <span class="Nome">Dúbnio</span>
-                    <span class="Massa">268</span>
+                <div id="Db" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">105</span>
+                    <span class="LL_Simbolo">Db</span>
+                    <span class="LL_Nome">Dúbnio</span>
+                    <span class="LL_Massa">268</span>
                 </div>
 
-                <div id="Sg" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">106</span>
-                    <span class="Simbolo">Sg</span>
-                    <span class="Nome">Seabórgio</span>
-                    <span class="Massa">269</span>
+                <div id="Sg" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">106</span>
+                    <span class="LL_Simbolo">Sg</span>
+                    <span class="LL_Nome">Seabórgio</span>
+                    <span class="LL_Massa">269</span>
                 </div>
 
-                <div id="Bh" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">107</span>
-                    <span class="Simbolo">Bh</span>
-                    <span class="Nome">Bóhrio</span>
-                    <span class="Massa">270</span>
+                <div id="Bh" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">107</span>
+                    <span class="LL_Simbolo">Bh</span>
+                    <span class="LL_Nome">Bóhrio</span>
+                    <span class="LL_Massa">270</span>
                 </div>
 
-                <div id="Hs" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">108</span>
-                    <span class="Simbolo">Hs</span>
-                    <span class="Nome">Hássio</span>
-                    <span class="Massa">277</span>
+                <div id="Hs" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">108</span>
+                    <span class="LL_Simbolo">Hs</span>
+                    <span class="LL_Nome">Hássio</span>
+                    <span class="LL_Massa">277</span>
                 </div>
 
-                <div id="Mt" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">109</span>
-                    <span class="Simbolo">Mt</span>
-                    <span class="Nome">Meitnério</span>
-                    <span class="Massa">278</span>
+                <div id="Mt" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">109</span>
+                    <span class="LL_Simbolo">Mt</span>
+                    <span class="LL_Nome">Meitnério</span>
+                    <span class="LL_Massa">278</span>
                 </div>
 
-                <div id="Ds" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">110</span>
-                    <span class="Simbolo">Ds</span>
-                    <span class="Nome">Darmstádio</span>
-                    <span class="Massa">281</span>
+                <div id="Ds" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">110</span>
+                    <span class="LL_Simbolo">Ds</span>
+                    <span class="LL_Nome">Darmstádio</span>
+                    <span class="LL_Massa">281</span>
                 </div>
 
-                <div id="Rg" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">111</span>
-                    <span class="Simbolo">Rg</span>
-                    <span class="Nome">Roentgênio</span>
-                    <span class="Massa">282</span>
+                <div id="Rg" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">111</span>
+                    <span class="LL_Simbolo">Rg</span>
+                    <span class="LL_Nome">Roentgênio</span>
+                    <span class="LL_Massa">282</span>
                 </div>
 
-                <div id="Cn" class="quadrado_tabela Texto_Tabela Metais_de_transicao">
-                    <span class="Num">112</span>
-                    <span class="Simbolo">Cn</span>
-                    <span class="Nome">Copernício</span>
-                    <span class="Massa">285</span>
+                <div id="Cn" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_de_transicao" tabindex="0">
+                    <span class="LL_Num">112</span>
+                    <span class="LL_Simbolo">Cn</span>
+                    <span class="LL_Nome">Copernício</span>
+                    <span class="LL_Massa">285</span>
                 </div>
 
-                <div id="Nh" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">113</span>
-                    <span class="Simbolo">Nh</span>
-                    <span class="Nome">Nihônio</span>
-                    <span class="Massa">286</span>
+                <div id="Nh" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">113</span>
+                    <span class="LL_Simbolo">Nh</span>
+                    <span class="LL_Nome">Nihônio</span>
+                    <span class="LL_Massa">286</span>
                 </div>
 
-                <div id="Fl" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">114</span>
-                    <span class="Simbolo">Fl</span>
-                    <span class="Nome">Fleróvio</span>
-                    <span class="Massa">289</span>
+                <div id="Fl" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">114</span>
+                    <span class="LL_Simbolo">Fl</span>
+                    <span class="LL_Nome">Fleróvio</span>
+                    <span class="LL_Massa">289</span>
                 </div>
 
-                <div id="Mc" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">115</span>
-                    <span class="Simbolo">Mc</span>
-                    <span class="Nome">Moscóvio</span>
-                    <span class="Massa">290</span>
+                <div id="Mc" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">115</span>
+                    <span class="LL_Simbolo">Mc</span>
+                    <span class="LL_Nome">Moscóvio</span>
+                    <span class="LL_Massa">290</span>
                 </div>
 
-                <div id="Lv" class="quadrado_tabela Texto_Tabela Metais_Representativos">
-                    <span class="Num">116</span>
-                    <span class="Simbolo">Lv</span>
-                    <span class="Nome">Livermório</span>
-                    <span class="Massa">293</span>
+                <div id="Lv" class="LL_quadrado_tabela LL_Texto_Tabela LL_Metais_Representativos" tabindex="0">
+                    <span class="LL_Num">116</span>
+                    <span class="LL_Simbolo">Lv</span>
+                    <span class="LL_Nome">Livermório</span>
+                    <span class="LL_Massa">293</span>
                 </div>
 
-                <div id="Ts" class="quadrado_tabela Texto_Tabela Halogenios">
-                    <span class="Num">117</span>
-                    <span class="Simbolo">Ts</span>
-                    <span class="Nome">Tenessino</span>
-                    <span class="Massa">294</span>
+                <div id="Ts" class="LL_quadrado_tabela LL_Texto_Tabela LL_Halogenios" tabindex="0">
+                    <span class="LL_Num">117</span>
+                    <span class="LL_Simbolo">Ts</span>
+                    <span class="LL_Nome">Tenessino</span>
+                    <span class="LL_Massa">294</span>
                 </div>
 
-                <div id="Og" class="quadrado_tabela Texto_Tabela Gases_nobres">
-                    <span class="Num">118</span>
-                    <span class="Simbolo">Og</span>
-                    <span class="Nome">Oganessônio</span>
-                    <span class="Massa">294</span>
+                <div id="Og" class="LL_quadrado_tabela LL_Texto_Tabela LL_Gases_nobres" tabindex="0">
+                    <span class="LL_Num">118</span>
+                    <span class="LL_Simbolo">Og</span>
+                    <span class="LL_Nome">Oganessônio</span>
+                    <span class="LL_Massa">294</span>
                 </div>
 
 
 
                 <!--PLACEHOLDERS-->
-                <div id="La_space" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span style="font-size: x-large;">57</span>
-                    <div class="linha_diagonal"></div>
-                    <span style="font-size: x-large; margin-left: 2.5rem; margin-top: auto;">71</span>
+                <div id="La_space" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span>57</span>
+                    <span style="margin-left: 3.7dvb; margin-top: auto;">71</span> 
                 </div>
 
-                <div id="Ac_space" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span style="font-size: x-large;">89</span>
-                    <div class="linha_diagonal"></div>
-                    <span style="font-size: x-large; margin-left: 1.7rem; margin-top: auto;">103</span>
+                <div id="Ac_space" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span>89</span>
+                    <span style="margin-left: 2.9dvb; margin-top: auto;">103</span>
                 </div>
 
 
 
                 <!-- LANTANÍDEOS -->
-                <div id="Ce" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">58</span>
-                    <span class="Simbolo">Ce</span>
-                    <span class="Nome">Cério</span>
-                    <span class="Massa">140.116</span>
+                <div id="Ce" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">58</span>
+                    <span class="LL_Simbolo">Ce</span>
+                    <span class="LL_Nome">Cério</span>
+                    <span class="LL_Massa">140.116</span>
                 </div>
 
-                <div id="Pr" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">59</span>
-                    <span class="Simbolo">Pr</span>
-                    <span class="Nome">Praseodímio</span>
-                    <span class="Massa">140.90766</span>
+                <div id="Pr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">59</span>
+                    <span class="LL_Simbolo">Pr</span>
+                    <span class="LL_Nome">Praseodímio</span>
+                    <span class="LL_Massa">140.90766</span>
                 </div>
 
-                <div id="Nd" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">60</span>
-                    <span class="Simbolo">Nd</span>
-                    <span class="Nome">Neodímio</span>
-                    <span class="Massa">144.242</span>
+                <div id="Nd" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">60</span>
+                    <span class="LL_Simbolo">Nd</span>
+                    <span class="LL_Nome">Neodímio</span>
+                    <span class="LL_Massa">144.242</span>
                 </div>
 
-                <div id="Pm" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">61</span>
-                    <span class="Simbolo">Pm</span>
-                    <span class="Nome">Promécio</span>
-                    <span class="Massa">145</span>
+                <div id="Pm" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">61</span>
+                    <span class="LL_Simbolo">Pm</span>
+                    <span class="LL_Nome">Promécio</span>
+                    <span class="LL_Massa">145</span>
                 </div>
 
-                <div id="Sm" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">62</span>
-                    <span class="Simbolo">Sm</span>
-                    <span class="Nome">Samário</span>
-                    <span class="Massa">150.36</span>
+                <div id="Sm" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">62</span>
+                    <span class="LL_Simbolo">Sm</span>
+                    <span class="LL_Nome">Samário</span>
+                    <span class="LL_Massa">150.36</span>
                 </div>
 
-                <div id="Eu" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">63</span>
-                    <span class="Simbolo">Eu</span>
-                    <span class="Nome">Európio</span>
-                    <span class="Massa">151.964</span>
+                <div id="Eu" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">63</span>
+                    <span class="LL_Simbolo">Eu</span>
+                    <span class="LL_Nome">Európio</span>
+                    <span class="LL_Massa">151.964</span>
                 </div>
 
-                <div id="Gd" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">64</span>
-                    <span class="Simbolo">Gd</span>
-                    <span class="Nome">Gadolínio</span>
-                    <span class="Massa">157.25</span>
+                <div id="Gd" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">64</span>
+                    <span class="LL_Simbolo">Gd</span>
+                    <span class="LL_Nome">Gadolínio</span>
+                    <span class="LL_Massa">157.25</span>
                 </div>
 
-                <div id="Tb" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">65</span>
-                    <span class="Simbolo">Tb</span>
-                    <span class="Nome">Térbio</span>
-                    <span class="Massa">158.92535</span>
+                <div id="Tb" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">65</span>
+                    <span class="LL_Simbolo">Tb</span>
+                    <span class="LL_Nome">Térbio</span>
+                    <span class="LL_Massa">158.92535</span>
                 </div>
 
-                <div id="Dy" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">66</span>
-                    <span class="Simbolo">Dy</span>
-                    <span class="Nome">Disprósio</span>
-                    <span class="Massa">162.500</span>
+                <div id="Dy" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">66</span>
+                    <span class="LL_Simbolo">Dy</span>
+                    <span class="LL_Nome">Disprósio</span>
+                    <span class="LL_Massa">162.500</span>
                 </div>
 
-                <div id="Ho" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">67</span>
-                    <span class="Simbolo">Ho</span>
-                    <span class="Nome">Hólmio</span>
-                    <span class="Massa">164.93033</span>
+                <div id="Ho" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">67</span>
+                    <span class="LL_Simbolo">Ho</span>
+                    <span class="LL_Nome">Hólmio</span>
+                    <span class="LL_Massa">164.93033</span>
                 </div>
 
-                <div id="Er" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">68</span>
-                    <span class="Simbolo">Er</span>
-                    <span class="Nome">Érbio</span>
-                    <span class="Massa">167.259</span>
+                <div id="Er" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">68</span>
+                    <span class="LL_Simbolo">Er</span>
+                    <span class="LL_Nome">Érbio</span>
+                    <span class="LL_Massa">167.259</span>
                 </div>
 
-                <div id="Tm" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">69</span>
-                    <span class="Simbolo">Tm</span>
-                    <span class="Nome">Túlio</span>
-                    <span class="Massa">168.93422</span>
+                <div id="Tm" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">69</span>
+                    <span class="LL_Simbolo">Tm</span>
+                    <span class="LL_Nome">Túlio</span>
+                    <span class="LL_Massa">168.93422</span>
                 </div>
 
-                <div id="Yb" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">70</span>
-                    <span class="Simbolo">Yb</span>
-                    <span class="Nome">Itérbio</span>
-                    <span class="Massa">173.045</span>
+                <div id="Yb" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">70</span>
+                    <span class="LL_Simbolo">Yb</span>
+                    <span class="LL_Nome">Itérbio</span>
+                    <span class="LL_Massa">173.045</span>
                 </div>
 
-                <div id="Lu" class="quadrado_tabela Texto_Tabela Lantanideos">
-                    <span class="Num">71</span>
-                    <span class="Simbolo">Lu</span>
-                    <span class="Nome">Lutécio</span>
-                    <span class="Massa">174.9668</span>
+                <div id="Lu" class="LL_quadrado_tabela LL_Texto_Tabela LL_Lantanideos" tabindex="0">
+                    <span class="LL_Num">71</span>
+                    <span class="LL_Simbolo">Lu</span>
+                    <span class="LL_Nome">Lutécio</span>
+                    <span class="LL_Massa">174.9668</span>
                 </div>
-
 
 
                 <!-- ACTINÍDEOS -->
-                <div id="Th" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">90</span>
-                    <span class="Simbolo">Th</span>
-                    <span class="Nome">Tório</span>
-                    <span class="Massa">232.03806</span>
+                <div id="Th" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">90</span>
+                    <span class="LL_Simbolo">Th</span>
+                    <span class="LL_Nome">Tório</span>
+                    <span class="LL_Massa">232.03806</span>
                 </div>
 
-                <div id="Pa" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">91</span>
-                    <span class="Simbolo">Pa</span>
-                    <span class="Nome">Protactínio</span>
-                    <span class="Massa">231.03588</span>
+                <div id="Pa" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">91</span>
+                    <span class="LL_Simbolo">Pa</span>
+                    <span class="LL_Nome">Protactínio</span>
+                    <span class="LL_Massa">231.03588</span>
                 </div>
 
-                <div id="U" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">92</span>
-                    <span class="Simbolo">U</span>
-                    <span class="Nome">Urânio</span>
-                    <span class="Massa">238.02891</span>
+                <div id="U" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">92</span>
+                    <span class="LL_Simbolo">U</span>
+                    <span class="LL_Nome">Urânio</span>
+                    <span class="LL_Massa">238.02891</span>
                 </div>
 
-                <div id="Np" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">93</span>
-                    <span class="Simbolo">Np</span>
-                    <span class="Nome">Netúnio</span>
-                    <span class="Massa">237</span>
+                <div id="Np" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">93</span>
+                    <span class="LL_Simbolo">Np</span>
+                    <span class="LL_Nome">Netúnio</span>
+                    <span class="LL_Massa">237</span>
                 </div>
 
-                <div id="Pu" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">94</span>
-                    <span class="Simbolo">Pu</span>
-                    <span class="Nome">Plutônio</span>
-                    <span class="Massa">244</span>
+                <div id="Pu" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">94</span>
+                    <span class="LL_Simbolo">Pu</span>
+                    <span class="LL_Nome">Plutônio</span>
+                    <span class="LL_Massa">244</span>
                 </div>
 
-                <div id="Am" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">95</span>
-                    <span class="Simbolo">Am</span>
-                    <span class="Nome">Amerício</span>
-                    <span class="Massa">243</span>
+                <div id="Am" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">95</span>
+                    <span class="LL_Simbolo">Am</span>
+                    <span class="LL_Nome">Amerício</span>
+                    <span class="LL_Massa">243</span>
                 </div>
 
-                <div id="Cm" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">96</span>
-                    <span class="Simbolo">Cm</span>
-                    <span class="Nome">Cúrio</span>
-                    <span class="Massa">247</span>
+                <div id="Cm" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">96</span>
+                    <span class="LL_Simbolo">Cm</span>
+                    <span class="LL_Nome">Cúrio</span>
+                    <span class="LL_Massa">247</span>
                 </div>
 
-                <div id="Bk" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">97</span>
-                    <span class="Simbolo">Bk</span>
-                    <span class="Nome">Berquélio</span>
-                    <span class="Massa">247</span>
+                <div id="Bk" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">97</span>
+                    <span class="LL_Simbolo">Bk</span>
+                    <span class="LL_Nome">Berquélio</span>
+                    <span class="LL_Massa">247</span>
                 </div>
 
-                <div id="Cf" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">98</span>
-                    <span class="Simbolo">Cf</span>
-                    <span class="Nome">Califórnio</span>
-                    <span class="Massa">251</span>
+                <div id="Cf" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">98</span>
+                    <span class="LL_Simbolo">Cf</span>
+                    <span class="LL_Nome">Califórnio</span>
+                    <span class="LL_Massa">251</span>
                 </div>
 
-                <div id="Es" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">99</span>
-                    <span class="Simbolo">Es</span>
-                    <span class="Nome">Einstênio</span>
-                    <span class="Massa">252</span>
+                <div id="Es" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">99</span>
+                    <span class="LL_Simbolo">Es</span>
+                    <span class="LL_Nome">Einstênio</span>
+                    <span class="LL_Massa">252</span>
                 </div>
 
-                <div id="Fm" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">100</span>
-                    <span class="Simbolo">Fm</span>
-                    <span class="Nome">Férmio</span>
-                    <span class="Massa">257</span>
+                <div id="Fm" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">100</span>
+                    <span class="LL_Simbolo">Fm</span>
+                    <span class="LL_Nome">Férmio</span>
+                    <span class="LL_Massa">257</span>
                 </div>
 
-                <div id="Md" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">101</span>
-                    <span class="Simbolo">Md</span>
-                    <span class="Nome">Mendelévio</span>
-                    <span class="Massa">258</span>
+                <div id="Md" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">101</span>
+                    <span class="LL_Simbolo">Md</span>
+                    <span class="LL_Nome">Mendelévio</span>
+                    <span class="LL_Massa">258</span>
                 </div>
 
-                <div id="No" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">102</span>
-                    <span class="Simbolo">No</span>
-                    <span class="Nome">Nobélio</span>
-                    <span class="Massa">259</span>
+                <div id="No" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">102</span>
+                    <span class="LL_Simbolo">No</span>
+                    <span class="LL_Nome">Nobélio</span>
+                    <span class="LL_Massa">259</span>
                 </div>
 
-                <div id="Lr" class="quadrado_tabela Texto_Tabela Actinideos">
-                    <span class="Num">103</span>
-                    <span class="Simbolo">Lr</span>
-                    <span class="Nome">Laurêncio</span>
-                    <span class="Massa">262</span>
+                <div id="Lr" class="LL_quadrado_tabela LL_Texto_Tabela LL_Actinideos" tabindex="0">
+                    <span class="LL_Num">103</span>
+                    <span class="LL_Simbolo">Lr</span>
+                    <span class="LL_Nome">Laurêncio</span>
+                    <span class="LL_Massa">262</span>
                 </div>
-
 
                 <!--Quadrado Grande Legenda-->
-                <div class="Info_Quadrados">
-                    <div class="Info_Texto">
-                        <span class="Num">Nº Atômico</span>
-                        <span class="Simbolo">Símbolo</span>
-                        <span class="Nome">Nome do Elemento</span>
-                        <span class="Massa">Massa Atomica</span>
+                <div class="LL_Info_Quadrados">
+                    <div class="LL_Info_Texto">
+                        <span class="LL_Num">Nº Atômico</span>
+                        <span class="LL_Simbolo">Símbolo</span>
+                        <span class="LL_Nome">Nome do Elemento</span>
+                        <span class="LL_Massa">Massa Atomica</span>
                     </div>
                 </div>
             </div>
         </main>
+
+        <footer>
+            <p>© 2026 - Site Desenvolvido por Luiz Miguel F. Z. Gonzaga e Letícia O. Andrade</p>
+        </footer>
     </div>
 
 </body>
